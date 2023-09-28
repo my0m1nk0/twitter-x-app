@@ -1,0 +1,19 @@
+ng g m main --routing
+
+ng g c main/layout
+
+ng g c main/shared/components/sidebar --flat -s -t --skip-tests
+ng g c main/shared/components/sidebar-items --flat -s -t --skip-tests
+ng g c main/shared/components/header --flat -s -t --skip-tests
+ng g c main/shared/components/follow-bar --flat -s -t --skip-tests
+ng g c main/shared/components/loader --flat -s -t --skip-tests
+ng g c main/shared/components/avatar --flat -s -t --skip-tests
+
+part ii 
+ng g c main/shared/auth/login-modal 
+ng g c main/shared/auth/register-modal
+ng g c main/shared/components/modal --flat -s -t --skip-tests
+ng g c main/shared/components/button --flat -s -t --skip-tests
+ng g s main/shared/services/model --skip-tests
+
+
